@@ -1,0 +1,61 @@
+
+h1{
+  padding: 0.5em;
+  font-size: 3em;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+.border{
+ border-style: solid;
+ border-radius: 2em;
+ border-color: black;
+ margin: 1em;
+ margin-left: 10em;
+ margin-right: 10em;
+}
+
+
+.side{
+  margin: 2em;
+  display: flex;
+  .side1{
+    margin-left: 10em;
+  }
+  .side1{
+    margin-right: 15em;
+  }
+
+}
+
+li{
+color: blue($color: #000000);
+}
+
+@media only screen and (max-width: 600px){
+  p{
+      font-size: medium;
+      text-align: justify;
+      text-justify: inter-word;
+  }
+  .side{
+    display: inline;
+    .side1{
+      margin-left: 0.5em;
+      margin-right: 0em;
+    }
+    .side2{
+      margin-top: 2em;
+      margin-left: 0.5em;
+    }
+    .border{
+      margin: 0.5em;
+    }
+  }
+  .border{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
+}

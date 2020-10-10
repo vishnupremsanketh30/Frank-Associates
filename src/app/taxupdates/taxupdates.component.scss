@@ -1,0 +1,23 @@
+
+
+h1{
+  padding: 0.5em;
+  font-size: 3em;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+body{
+margin:1em;
+}
+
+
+@media only screen and (max-width: 600px){
+  p{
+      font-size: medium;
+      text-align: justify;
+      text-justify: inter-word;
+  }
+}
