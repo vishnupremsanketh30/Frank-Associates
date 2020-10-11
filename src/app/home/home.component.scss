@@ -1,0 +1,54 @@
+.mv{
+  margin-top: 1em;
+  padding: 1em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.mlink{
+  background-color: rgb(81, 81, 216);
+}
+
+
+.header {
+  font-size: 27px;
+  padding: 10px;
+}
+
+span{
+  float: right;
+}
+
+.button{
+ background-color: rgb(201, 85, 36);
+ padding:0.2em;
+ text-align: center;
+ border-radius: 2em;
+ font-size: 2em;
+}
+
+
+
+img{
+  width: 100%;
+  height: 35em;
+}
+
+.contact1{
+  border-radius: 2em;
+  border-color: gray;
+  margin-left: 15em;
+}
+
+
+
+@media only screen and (max-width: 600px){
+.hide{
+  display: none;
+}
+.contact1{
+  margin-left: 0em;
+}
+}

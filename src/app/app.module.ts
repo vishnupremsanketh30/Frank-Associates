@@ -18,6 +18,7 @@ import { ServicesOfferedComponent } from './services-offered/services-offered.co
 import { TaxupdatesComponent } from './taxupdates/taxupdates.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -28,7 +29,8 @@ import { ContactComponent } from './contact/contact.component';
     ServicesOfferedComponent,
     TaxupdatesComponent,
     NewsComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
