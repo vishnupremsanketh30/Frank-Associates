@@ -1,11 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationComponent } from './navigation/navigation.component';
 
+import { environment } from "src/environments/environment";
+//import { AngularFireModule } from "@angular/fire";
+
+import { AngularFireModule } from 'angularfire2';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+//import { AngularFirestoreModule } from "@angular/fire/firestore";
 
 
 import { LayoutModule } from '@angular/cdk/layout';
@@ -19,6 +27,10 @@ import { TaxupdatesComponent } from './taxupdates/taxupdates.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { AdminloginComponent } from './adminlogin/adminlogin.component';
+import { PostItemComponent } from './post-item/post-item.component';
+
+import {FormsModule } from '@angular/forms'
 
 
 
@@ -30,7 +42,9 @@ import { HomeComponent } from './home/home.component';
     TaxupdatesComponent,
     NewsComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    AdminloginComponent,
+    PostItemComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +54,12 @@ import { HomeComponent } from './home/home.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
+    AngularFireAuthModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,26 +1,37 @@
-
-
-h1{
+.container{
+  margin-top: 10em;
+  padding: 1em;
+}
+.newslogo{
+  margin-top:4em;
+  text-align: center;
+}
+.newsnavbutton{
+  border-style: solid;
+  border-radius: 1em;
   padding: 0.5em;
-  font-size: 3em;
+  background-color: rgb(37, 37, 104);
+  border-color: rgb(131, 131, 224);
+  margin-top: 2em;
+  color: white;
+  text-decoration: none;
 }
 
-p{
-  font-size: 1.2em;
-}
-
-body{
-margin:1em;
-}
-
-
-@media only screen and (max-width: 600px){
-  p{
-      font-size: medium;
-      text-align: justify;
-      text-justify: inter-word;
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: medium;
+    text-align: justify;
+    text-justify: inter-word;
   }
-  h1{
+  h1 {
     font-size: 30px;
+  }
+
+  .newslogo{
+    margin-top: 0em;
+  }
+  img{
+    height: 15em;
+    width: 15em;
   }
 }

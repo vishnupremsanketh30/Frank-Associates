@@ -1,60 +1,62 @@
-
-h1{
+h1 {
   padding: 0.5em;
   font-size: 3em;
 }
 
-p{
+p {
   font-size: 1.2em;
 }
 
-.border{
- border-style: solid;
- border-radius: 2em;
- border-color: black;
- margin: 1em;
- margin-left: 10em;
- margin-right: 10em;
+.container{
+  margin-top: 10em;
+  padding: 1em;
 }
 
+.border {
+  border-style: solid;
+  border-radius: 2em;
+  border-color: black;
+  margin: 1em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
 
-.side{
+.side {
   margin: 2em;
   display: flex;
-  .side1{
-    margin-left: 10em;
+  .side1 {
+    margin-left: 5em;
   }
-  .side1{
-    margin-right: 15em;
+  .side2 {
+    margin-left: 8em;
   }
-
 }
 
-li{
-color: blue($color: #000000);
+li {
+  color: blue($color: #000000);
 }
 
-@media only screen and (max-width: 600px){
-  p{
-      font-size: medium;
-      text-align: justify;
-      text-justify: inter-word;
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: medium;
+    text-align: justify;
+    text-justify: inter-word;
   }
-  .side{
+  .side {
     display: inline;
-    .side1{
+    .side1 {
       margin-left: 0.5em;
       margin-right: 0em;
     }
-    .side2{
+    .side2 {
       margin-top: 2em;
       margin-left: 0.5em;
     }
-    .border{
+    .border {
       margin: 0.5em;
     }
   }
-  .border{
+  .border {
     margin-right: 0.5em;
     margin-left: 0.5em;
   }
