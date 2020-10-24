@@ -3,11 +3,16 @@ h1 {
   font-size: 3em;
 }
 
+li{
+  font-size: 18px;
+}
+
+
 p {
   font-size: 1.2em;
 }
 .container{
-  margin-top: 10em;
+  margin-top: 15em;
   padding: 1em;
 }
 
@@ -16,5 +21,8 @@ p {
     font-size: medium;
     text-align: justify;
     text-justify: inter-word;
+  }
+  .container{
+    margin-top: 5em;
   }
 }

@@ -2,13 +2,20 @@ h1 {
   padding: 0.5em;
   font-size: 3em;
 }
+.icons{
+  text-align: left;margin-top: 1.2em;
+}
+
+.followus{
+  font-size: 2em; margin-top: 1em;
+}
 
 p {
   font-size: 1.2em;
 }
 
 .container{
-  margin-top: 10em;
+  margin-top: 15em;
   padding: 1em;
 }
 
@@ -30,6 +37,10 @@ p {
   .side2 {
     margin-left: 8em;
   }
+}
+
+.followusdiv{
+  text-align: right;
 }
 
 li {
@@ -59,5 +70,21 @@ li {
   .border {
     margin-right: 0.5em;
     margin-left: 0.5em;
+  }
+  .container{
+    margin-top: 5em;
+  }
+
+  .followus{
+    font-size: 1em; margin-top: 1em;
+  }
+
+  .followusdiv{
+    text-align: center;
+  }
+
+  .iconsdiv{
+    text-align: center;
+    margin-left: 5em;
   }
 }

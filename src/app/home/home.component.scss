@@ -1,10 +1,17 @@
 .mv{
-  margin-top: 5em;
+  margin-top: 15em;
   padding: 1em;
+}
+.h5{
+  color:rgb(206, 1, 47)
 }
 
 a{
   text-decoration: none;
+}
+
+li{
+  font-size: 18px;
 }
 
 .mlink{
@@ -44,7 +51,11 @@ img{
 
 
 
+
 @media only screen and (max-width: 600px){
+  .mv{
+    margin-top: 5em;
+  }
 .hide{
   display: none;
 }

@@ -1,10 +1,14 @@
 .container{
   padding: 2em;
-  margin-top: 10em;
+  margin-top: 13em;
 }
 h1{
   padding: 0.5em;
   font-size: 3em;
+}
+
+li{
+  font-size: 18px;
 }
 
 p{
@@ -26,7 +30,7 @@ p{
     margin-left: 5em;
   }
   .side2{
-    margin-left: 15em;
+    margin-left: 13em;
   }
 
 }
@@ -36,6 +40,10 @@ color: blue($color: #000000);
 }
 
 @media only screen and (max-width: 600px){
+
+  .container{
+    margin-top: 5em;
+  }
   p{
       font-size: medium;
       text-align: justify;
